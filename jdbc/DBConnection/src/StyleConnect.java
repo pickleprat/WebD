@@ -93,6 +93,7 @@ public class StyleConnect {
         ResultSet set = executeQuery(query, conn); 
         ArrayList<Style> styles = processStyles(set); 
         System.out.println(styles.size()); 
+        conn.close(); 
 
     }
 }

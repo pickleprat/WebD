@@ -42,5 +42,6 @@ public class App {
 
         set.next(); 
         System.out.println(set.getString("orderid"));
+        conn.close(); 
     }
 }
